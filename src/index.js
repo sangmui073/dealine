@@ -7,11 +7,18 @@ import reportWebVitals from "./reportWebVitals";
 // import "../node_modules/jquery/dist/jquery.slim";
 // import "../node_modules/popper.js/dist/popper";
 // import "../node_modules/bootstrap/dist/js/bootstrap";
-
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import { rootReducer } from "./redux/reducer/rootReducer";
+//tạo store tổng để kết nối vs rootReducer
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById("root")
 );
 
