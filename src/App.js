@@ -1,4 +1,4 @@
-// import Baitapcomponent from "./BaiTapComponent/Baitapcomponent";
+import Baitapcomponent from "./BaiTapComponent/Baitapcomponent";
 // import Doimauxe from "./BaiTapDoiMauXe/Doimauxe";
 // import Baitapphonecallback from "./BaiTapDienThoaiCallBack/Baitapphonecallback";
 // import Listphim from "./BaiTapMangPhim/Listphim";
@@ -12,14 +12,14 @@ import BaiTapGioHangRedux from "./BaiTapGioHangRedux/BaiTapGioHangRedux";
 function App() {
   return (
     <div className="App">
-      {/* <Baitapcomponent /> */}
+      <Baitapcomponent />
       {/* <Baitapstate /> */}
       {/* <Listphim mangPhim={data} /> */}
       {/* <BaitapGlassesApp /> */}
       {/* <Baitapcomponent /> */}
       {/* <BaitapcomponentDienThoai /> */}
       {/* <Baitapphonecallback /> */}
-      <BaiTapGioHangRedux />
+      {/* <BaiTapGioHangRedux /> */}
     </div>
   );
 }
