@@ -38,6 +38,7 @@ class ModalRedux extends Component {
                     <td>Số Lượng</td>
                     <td>Giá SP</td>
                     <td>Thành Tiền</td>
+                    <td></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -73,8 +74,20 @@ class ModalRedux extends Component {
                             -
                           </button>
                         </td>
-                        <td>{phone.giaBan}</td>
-                        <td>{phone.giaBan * phone.soLuong}</td>
+                        <td>{phone.giaBan.toLocaleString()}</td>
+                        <td>
+                          {(phone.giaBan * phone.soLuong).toLocaleString()}
+                        </td>
+                        <td>
+                          <button
+                            onClick={() => {
+                              this.props.xoaSP(phone.maSP);
+                            }}
+                            className="btn btn-danger"
+                          >
+                            Xóa SP
+                          </button>
+                        </td>
                       </tr>
                     );
                   })}
@@ -116,6 +129,13 @@ const mapDisPatchToProps = (dispatch) => {
       const action = {
         type: "TANG_GIAM_SP",
         sp: sp,
+      };
+      dispatch(action);
+    },
+    xoaSP: (maSP) => {
+      const action = {
+        type: "XOA_SP",
+        maSP,
       };
       dispatch(action);
     },

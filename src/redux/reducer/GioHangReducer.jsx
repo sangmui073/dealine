@@ -49,6 +49,9 @@ export const gioHangReducer = (state = initialState, action) => {
         } else {
           if (gioHangUpdate[index].soLuong > 0) {
             gioHangUpdate[index].soLuong -= 1;
+            if (gioHangUpdate[index].soLuong === 0) {
+              gioHangUpdate.splice(index, 1);
+            }
           }
         }
       }
@@ -57,6 +60,16 @@ export const gioHangReducer = (state = initialState, action) => {
         return (num += sp.soLuong);
       }, 0);
 
+      return { ...state };
+    }
+    case "XOA_SP": {
+      const gioHangUpdate = state.gioHang.filter((sp) => {
+        return sp.maSP !== action.maSP;
+      });
+      state.tongSl = gioHangUpdate.reduce((num, sp) => {
+        return (num += sp.soLuong);
+      }, 0);
+      state.gioHang = gioHangUpdate;
       return { ...state };
     }
     default:

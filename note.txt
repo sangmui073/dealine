@@ -1,0 +1,26 @@
+3/Flow code của ReactJS 
+index.html (chú ý id="root");
+index.js (chú ý <App/> là nơi gọi component)
+App.js (chú ý return của function App nội dung của component)
+
+4/reactjs không đọc được html chỉ đọc được jsx nên phải convert html sang jsx;
+5/JSX giúp cho chúng ta code html và js vào cùng 1 file
+6/ Lợi ích và tiêu chí vì sao phải chia component
++ Tái sử dụng được nhìu lần 
++ Dễ bảo trì và mở rộng
+7/ Luôn luôn đặt tên component ta tự tạo bằng chữ cái đầu viết hoa để tránh vs các component mặc định của html
+8/ Có 2 dạng component là 
++ dạng class (stateFull) component
++ dạng function(stateLess) component
+9/ Databiding giúp ta có thể code những đoạn code Js bên trong đoạn các tag jsx thông qua dấu {....value}
+10/ mọi đường dẫn trong react đều bắt đầu từ index.html của react vì mọi thẻ jsx đều render ra thẻ index.html
+==> ví dụ điển hình là các tấm hình trong img
+13/ cách sài scss trong reactt là ta cài thư viện npm - i -nodesass nó sẽ tự biên dịch từ file sass (biên dịch ngầm) qua css
+// sau đó import "./styleGameTaiXiu.scss"; vào <-- đường dẫn chứa file
+14/chia component ta nên tuân thủ theo việc những component nào giống nhau là 1, 2 là các nút chứa các sự kiện trong layout
+15/Xác định cách lưu state ở component nếu không dùng redux thì phải dựa trên 2 tiêu chí
+a-component đó phải chứa các nút xử lý sự kiện
+b-component đó phải chứa các dữ liệu sẽ thay đổi để làm thay đổi UI
+16/ Redux tại sao ta dispatch 1 action lên nhưng trong action lại phải có type mà trong khi đó
+dispatch lên thì chỉ có 1 object đó để xử lý... lý do có type là để các sự kiện không xử  lý chung 1 chỗ
+nếu ko có type thì ok vẫn dc nhưng code chạy từ trên xuống dưới nó sẽ xử lý tùm lum sự kiện ta ko kiểm soát dc
