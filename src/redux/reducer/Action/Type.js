@@ -1,0 +1,6 @@
+const THEM_SV = "THEM_SV";
+const GET_COURSE = "GET_COURSE";
+const GET_COURSE_BYID = "GET_COURSE_BYID";
+const POST_USER = "POST_USER";
+const Sign = "Sign";
+export { THEM_SV, GET_COURSE, GET_COURSE_BYID, POST_USER, Sign };

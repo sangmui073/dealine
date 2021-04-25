@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+
 class HeaderBaiTap extends Component {
   render() {
     return (
@@ -7,8 +9,8 @@ class HeaderBaiTap extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">
-                Home <span className="sr-only">(current)</span>
+              <Link className="nav-link" to="/Coures">
+                Khoa Hoc <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -48,13 +50,59 @@ class HeaderBaiTap extends Component {
                 <Link className="dropdown-item" to="/baiTapQuanLySVRedux">
                   BTQuanLYSV
                 </Link>
+                <Link className="dropdown-item" to="/baitapTXredux">
+                  BTTX redux
+                </Link>
               </div>
             </li>
           </ul>
+          {this.props.userLogin.user ? (
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/userInfo">
+                  {this.props.userLogin.user.taiKhoan}
+                  <span className="sr-only">(current)</span>
+                </Link>
+              </li>{" "}
+              <li className="nav-item active">
+                <Link
+                  onClick={() => {
+                    localStorage.removeItem("user");
+                    this.props.dispatch({
+                      type: "LOG_OUT",
+                      payload: null,
+                    });
+                  }}
+                  className="nav-link"
+                  to="/"
+                >
+                  Log out
+                  <span className="sr-only">(current)</span>
+                </Link>
+              </li>{" "}
+            </ul>
+          ) : (
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/Singup">
+                  Đăng Ký <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link className="nav-link" to="/SignIn">
+                  Đăng Nhập <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+            </ul>
+          )}
         </div>
       </nav>
     );
   }
 }
-
-export default HeaderBaiTap;
+const mapStateToProp = (state) => {
+  return {
+    userLogin: state.UserReducer,
+  };
+};
+export default connect(mapStateToProp)(HeaderBaiTap);

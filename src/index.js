@@ -8,12 +8,16 @@ import reportWebVitals from "./reportWebVitals";
 // import "../node_modules/popper.js/dist/popper";
 // import "../node_modules/bootstrap/dist/js/bootstrap";
 import { Provider } from "react-redux";
-import { createStore } from "redux";
+import { createStore, applyMiddleware, compose } from "redux";
 import { rootReducer } from "./redux/reducer/rootReducer";
+import thunk from "redux-thunk";
 //tạo store tổng để kết nối vs rootReducer
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 const store = createStore(
   rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  composeEnhancers(applyMiddleware(thunk))
 );
 ReactDOM.render(
   <Provider store={store}>

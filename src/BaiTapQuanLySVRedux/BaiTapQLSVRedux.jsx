@@ -3,6 +3,11 @@ import React, { Component } from "react";
 import FormSinhVien from "./FormSinhVien";
 import TableSinhVien from "./TableSinhVien";
 export default class BaiTapQLSVRedux extends Component {
+  // componentDidMount(){
+  //   // this.props.dispatch(fetchUsers())
+  //Ta gọi dispatch cái asyn action tại đây và trong asyn action
+  //Ta mới dispatch 1 action creator lên redux (root)
+  // }
   render() {
     return (
       <div className="container">
