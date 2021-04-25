@@ -16,7 +16,7 @@ class BtTaiXiuRedux extends Component {
           height: "100%",
           position: "fixed",
           left: 0,
-          top: 0,
+          top: 50,
         }}
       >
         <div className="container">
