@@ -53,6 +53,9 @@ class HeaderBaiTap extends Component {
                 <Link className="dropdown-item" to="/baitapTXredux">
                   BTTX redux
                 </Link>
+                <Link className="dropdown-item" to="/baitapDressingRoom">
+                  BTTX Dressing
+                </Link>
               </div>
             </li>
           </ul>

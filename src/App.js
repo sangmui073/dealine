@@ -21,6 +21,7 @@ import { Component } from "react";
 import { connect } from "react-redux";
 import { Sign } from "./redux/reducer/Action/Type";
 import BtTaiXiuRedux from "./BaiTapTaiXiuRedux/BtTaiXiuRedux";
+import DressingRoom from "./BaiTapDressingRoom/DressingRoom";
 const userSign = localStorage.getItem("user");
 class App extends Component {
   componentDidMount() {
@@ -50,6 +51,7 @@ class App extends Component {
             <Route path="/Singup" component={SingUp} />
             <Route path="/SignIn" component={SignIn} />
             <Route path="/baitapTXredux" component={BtTaiXiuRedux} />
+            <Route path="/baitapDressingRoom" component={DressingRoom} />
             <Route path="/" component={""} />
           </Switch>
         </div>

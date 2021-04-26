@@ -4,7 +4,17 @@ import KetQua from "./KetQua";
 import "./styleGameTaiXiu.module .scss";
 import XucXac from "./XucXac";
 import { connect } from "react-redux";
-
+const listXucXac = [
+  { hinhAnh: "./img/gameXucXac/1.png", value: 1 },
+  { hinhAnh: "./img/gameXucXac/2.png", value: 2 },
+  { hinhAnh: "./img/gameXucXac/3.png", value: 3 },
+  { hinhAnh: "./img/gameXucXac/4.png", value: 4 },
+  { hinhAnh: "./img/gameXucXac/5.png", value: 5 },
+  { hinhAnh: "./img/gameXucXac/6.png", value: 6 },
+];
+const randomXc = () => {
+  return Math.floor(Math.random() * 6);
+};
 class BtTaiXiuRedux extends Component {
   render() {
     return (
@@ -37,9 +47,26 @@ class BtTaiXiuRedux extends Component {
           <KetQua />
           <button
             onClick={() => {
-              this.props.dispatch({
-                type: "PLAY_GAME",
-              });
+              let cout = 0;
+              const lacXucXac = setInterval(() => {
+                const newMangXucXac = [];
+                for (let i = 0; i < 3; i++) {
+                  newMangXucXac.push(listXucXac[randomXc()]);
+                }
+                this.props.dispatch({
+                  type: "LAC_XUC_XAC",
+                  payload: newMangXucXac,
+                });
+                cout++;
+                if (cout > 10) {
+                  clearInterval(lacXucXac);
+                }
+              }, 100);
+              setTimeout(() => {
+                this.props.dispatch({
+                  type: "TINH_DIEM",
+                });
+              }, 2000);
             }}
             className="btn btn-success"
             style={{ fontSize: 30 }}
