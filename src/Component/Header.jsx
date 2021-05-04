@@ -56,6 +56,18 @@ class HeaderBaiTap extends Component {
                 <Link className="dropdown-item" to="/baitapDressingRoom">
                   BTTX Dressing
                 </Link>
+                <Link className="dropdown-item" to="/gameOanTuTi">
+                  Game Oan Tu Ti
+                </Link>
+                <Link className="dropdown-item" to="/todolist">
+                  To do list
+                </Link>
+                <Link className="dropdown-item" to="/bookingTicket">
+                  BokingTicket
+                </Link>
+                <Link className="dropdown-item" to="/baitapHook">
+                  BT Hook
+                </Link>
               </div>
             </li>
           </ul>

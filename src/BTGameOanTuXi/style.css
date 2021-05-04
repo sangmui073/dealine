@@ -1,0 +1,27 @@
+@font-face {
+  font-family: gameOanTuTi;
+  src: url(../BaiTapTaiXiuRedux/Pony.ttf);
+}
+.gameOanTuTi {
+  font-family: gameOanTuTi;
+}
+.speech-bubble {
+  position: relative;
+  background: #fff;
+  border-radius: 0.4em;
+  border: 1px solid #0c632693;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: green;
+  border-bottom: 0;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}

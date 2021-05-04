@@ -1,0 +1,206 @@
+[
+    {
+        "hang" : "",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":0},
+            {"soGhe": "2","gia":0},
+            {"soGhe": "3","gia":0},
+            {"soGhe": "4","gia":0},
+            {"soGhe": "5","gia":0},
+            {"soGhe": "6","gia":0},
+            {"soGhe": "7","gia":0},
+            {"soGhe": "8","gia":0},
+            {"soGhe": "9","gia":0},
+            {"soGhe": "10","gia":0},
+            {"soGhe": "11","gia":0},
+            {"soGhe": "12","gia":0}
+        ]
+    },
+    {
+        "hang" : "A",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "A1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "A2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "A3"},
+            {"soGhe": "4","gia":7500,"daDat":true,"maGhe": "A4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "A5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "A6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "A7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "A8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "A9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "A10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "A11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "A12"}
+        ]
+    },
+    {
+        "hang" : "B",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "B1"},
+            {"soGhe": "2","gia":7500,"daDat":true,"maGhe": "B2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "B3"},
+            {"soGhe": "4","gia":7500,"daDat":true,"maGhe": "B4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "B5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "B6"},
+            {"soGhe": "7","gia":7500,"daDat":true,"maGhe": "B7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "B8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "B9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "B10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "B11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "B12"}
+        ]
+    },
+    {
+        "hang" : "C",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "C1"},
+            {"soGhe": "2","gia":7500,"daDat":true,"maGhe": "C2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "C3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "C4"},
+            {"soGhe": "5","gia":7500,"daDat":true,"maGhe": "C5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "C6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "C7"},
+            {"soGhe": "8","gia":7500,"daDat":true,"maGhe": "C8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "C9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "C10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "C11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "C12"}
+        ]
+    },
+    {
+        "hang" : "D",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "D1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "D2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "D3"},
+            {"soGhe": "4","gia":7500,"daDat":true,"maGhe": "D4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "D5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "D6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "D7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "D8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "D9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "D10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "D11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "D12"}
+        ]
+    },
+    {
+        "hang" : "E",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "E1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "E2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "E3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "E4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "E5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "E6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "E7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "E8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "E9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "E10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "E11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "E12"}
+        ]
+    },
+    {
+        "hang" : "F",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "F1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "F2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "F3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "F4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "F5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "F6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "F7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "F8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "F9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "F10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "F11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "F12"}
+        ]
+    },
+    {
+        "hang" : "G",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "G1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "G2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "G3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "G4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "G5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "G6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "G7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "G8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "G9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "G10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "G11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "G12"}
+        ]
+    },
+    {
+        "hang" : "H",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "H1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "H2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "H3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "H4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "H5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "H6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "H7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "H8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "H9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "H10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "H11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "H12"}
+        ]
+    },
+    {
+        "hang" : "I",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "I1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "I2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "I3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "I4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "I5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "I6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "I7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "I8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "I9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "I10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "I11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "I12"}
+        ]
+    },
+    {
+        "hang" : "J",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "J1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "J2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "J3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "J4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "J5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "J6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "J7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "J8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "J9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "J10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "J11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "J12"}
+        ]
+    },
+    {
+        "hang" : "K",
+        "danhsachGhe" : [
+            {"soGhe": "1","gia":7500,"daDat":false,"maGhe": "K1"},
+            {"soGhe": "2","gia":7500,"daDat":false,"maGhe": "K2"},
+            {"soGhe": "3","gia":7500,"daDat":false,"maGhe": "K3"},
+            {"soGhe": "4","gia":7500,"daDat":false,"maGhe": "K4"},
+            {"soGhe": "5","gia":7500,"daDat":false,"maGhe": "K5"},
+            {"soGhe": "6","gia":7500,"daDat":false,"maGhe": "K6"},
+            {"soGhe": "7","gia":7500,"daDat":false,"maGhe": "K7"},
+            {"soGhe": "8","gia":7500,"daDat":false,"maGhe": "K8"},
+            {"soGhe": "9","gia":7500,"daDat":false,"maGhe": "K9"},
+            {"soGhe": "10","gia":7500,"daDat":false,"maGhe": "K10"},
+            {"soGhe": "11","gia":7500,"daDat":false,"maGhe": "K11"},
+            {"soGhe": "12","gia":7500,"daDat":false,"maGhe": "K12"}
+        ]
+    }
+]

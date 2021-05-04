@@ -22,6 +22,10 @@ import { connect } from "react-redux";
 import { Sign } from "./redux/reducer/Action/Type";
 import BtTaiXiuRedux from "./BaiTapTaiXiuRedux/BtTaiXiuRedux";
 import DressingRoom from "./BaiTapDressingRoom/DressingRoom";
+import GameOanTuXi from "./BTGameOanTuXi/GameOanTuXi";
+import Todolist from "./BTToDoList/ToDoList";
+import BtBookKingTicket from "./BtBookingTicket/BtBookKingTicket";
+import BaiTapHook from "./BaiTapHook/BaiTapHook";
 const userSign = localStorage.getItem("user");
 class App extends Component {
   componentDidMount() {
@@ -52,6 +56,10 @@ class App extends Component {
             <Route path="/SignIn" component={SignIn} />
             <Route path="/baitapTXredux" component={BtTaiXiuRedux} />
             <Route path="/baitapDressingRoom" component={DressingRoom} />
+            <Route path="/gameOanTuTi" component={GameOanTuXi} />
+            <Route path="/todolist" component={Todolist} />
+            <Route path="/bookingTicket" component={BtBookKingTicket} />
+            <Route path="/baitapHook" component={BaiTapHook} />
             <Route path="/" component={""} />
           </Switch>
         </div>

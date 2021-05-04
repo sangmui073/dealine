@@ -60,13 +60,11 @@ class BtTaiXiuRedux extends Component {
                 cout++;
                 if (cout > 10) {
                   clearInterval(lacXucXac);
+                  this.props.dispatch({
+                    type: "TINH_DIEM",
+                  });
                 }
               }, 100);
-              setTimeout(() => {
-                this.props.dispatch({
-                  type: "TINH_DIEM",
-                });
-              }, 2000);
             }}
             className="btn btn-success"
             style={{ fontSize: 30 }}
